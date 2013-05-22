@@ -1,0 +1,100 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+#region-user-first{
+	/* logo region */
+	background-color: #bbb;
+}
+
+#region-user-second{
+	/* menu area */
+	background-color: #ff1;
+	height: 150px;
+}
+
+
+/* main menu */
+
+#block-system-main-menu{
+	
+	display: block;
+	background-color: fuchsia;
+
+
+	position: relative; bottom: 0; right: 0;
+}
+
+#block-system-main-menu .menu {
+  margin: 0;
+  padding: 0;
+  
+}
+
+#block-system-main-menu .menu li {
+  list-style: none; 
+  float: left; 
+
+  text-align: center;
+  
+  height: 20px;
+  padding:10px 10px;
+  outline: 1px solid black;
+  background-color: lime;
+  font-size: 15px;
+}
+
+#block-system-main-menu .menu li a{
+	
+	text-decoration: none;
+
+}
+
+#block-system-main-menu ul.inline, ul.links.inline {
+    display: inline;
+    padding-left: 0px;
+}
+
+
+.region-mobile-content{
+	
+	background-color: red;
+	
+}
+
+.region-tablet-content{
+	
+	background-color: green;
+	
+}
+
+.region-desktop-content{
+	
+	background-color: cyan;
+	
+}
+
+
+#region-footer-first{
+	background-color: gray;
+	text-align: center;
+		
+	
+}
+
+#region-sidebar-second{
+	
+background-color: #cdcdcd;	
+}
+
+h2{
+	font-size: 24px;
+	background-color: #343434;
+	height:30px;
+	font-weight: normal;
+	padding: 10px;
+	color:white;
+}
+p{
+	
+	padding: 10px 20px;
+}
